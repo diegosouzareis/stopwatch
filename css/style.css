@@ -1,0 +1,24 @@
+#play{
+    color: white;
+}
+
+#pause{
+    color: white;
+}
+
+#stop{
+    color: white;
+}
+
+#play:disabled {
+    color: #818181;
+  }
+  
+#pause:disabled {
+    color: #818181;
+  }
+
+#stop:disabled {
+    color: #818181;
+}
+
