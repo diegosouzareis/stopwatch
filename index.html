@@ -12,27 +12,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="container d-flex w-100 h-100 p-3 mx-auto mt-auto flex-column">
+    <div class="container d-flex p-3 flex-column">
        <main class="my-auto">
-           <h1 id="timer" class="mx-auto display-1 fw-normal">00:00:00</h1>
-
-            <div class="container mx-auto">
-                <button id="play" class="px-2" style="background: transparent;border: none; --bs-gradient: none;">
-                    <i class="bi bi-play-circle" style="font-size: 40px;"></i>
-                </button>
-
-                <button id="pause" class="px-2" style="background: transparent;border: none; --bs-gradient: none;">
-                    <i class="bi bi-pause-circle" style="font-size: 40px;"></i>
-                </button>
-
-                <button id="stop" class="px-2" style="background: transparent;border: none; --bs-gradient: none;">
-                    <i class="bi bi-stop-circle" style="font-size: 40px;"></i>
-                </button>
-            </div>
+           <h1 class="timer display-1"></h1>
+            <button class="play px-2">
+                <i class="bi bi-play-circle"></i>
+            </button>
+            <button class="pause px-2">
+                <i class="bi bi-pause-circle"></i>
+            </button>
+            <button class="stop px-2">
+                <i class="bi bi-stop-circle"></i>
+            </button>
           </div>
        </main>
     </div>
-
     <script src="js/index.js"></script>
 </body>
 </html>

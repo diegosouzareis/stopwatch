@@ -1,24 +1,23 @@
-#play{
+i {
+    font-size: 40px;
+}
+
+button {
+    background: transparent;
+    border: none; 
+    --bs-gradient: none;
     color: white;
 }
 
-#pause{
-    color: white;
-}
-
-#stop{
-    color: white;
-}
-
-#play:disabled {
+.play:disabled {
     color: #818181;
   }
   
-#pause:disabled {
+.pause:disabled {
     color: #818181;
   }
 
-#stop:disabled {
+.stop:disabled {
     color: #818181;
 }
 

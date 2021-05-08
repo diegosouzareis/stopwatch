@@ -1,7 +1,9 @@
-const timer = document.querySelector("#timer");
-const play = document.querySelector("#play");
-const pause = document.querySelector("#pause");
-const stopb = document.querySelector("#stop");
+const timer = document.querySelector(".timer");
+const play = document.querySelector(".play");
+const pause = document.querySelector(".pause");
+const stopb = document.querySelector(".stop");
+
+timer.innerHTML = '00:00:00';
 
 pause.disabled = true;
 stopb.disabled = true;
