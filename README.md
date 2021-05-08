@@ -1,6 +1,6 @@
 <h1 align="center">Stopwatch</h1>
 <p align="center">
-<a href="" rel="nofollow" align="center">View Demo</a>
+<a href="https://diegoreis1.github.io/stopwatch/" target="_blank" align="center">View Demo</a>
     ·
 <a href="https://github.com/DiegoReis1/stopwatch/issues" align="center">Report Bug</a>
     ·
